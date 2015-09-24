@@ -14,9 +14,20 @@
 @end
 
 @implementation AppDelegate
+- (IBAction)alertHello:(id)sender {
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText: @"Hello, World"];
+    [alert runModal];
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    [self.window setStyleMask: NSBorderlessWindowMask];
+    [self.window setMovableByWindowBackground: YES];
+    [self.window setMovable: YES];
+    [self.window setOpaque: NO];
+    [self.window setBackgroundColor: [NSColor clearColor]];
+    [self.window setLevel: 1];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
