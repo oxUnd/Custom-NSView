@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93055D291BB386D800ABD2E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D281BB386D800ABD2E9 /* AppDelegate.m */; };
+		93055D2C1BB386D800ABD2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D2B1BB386D800ABD2E9 /* main.m */; };
+		93055D2E1BB386D800ABD2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93055D2D1BB386D800ABD2E9 /* Assets.xcassets */; };
+		93055D311BB386D800ABD2E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93055D2F1BB386D800ABD2E9 /* MainMenu.xib */; };
+		93055D3C1BB386D800ABD2E9 /* Custom_WindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D3B1BB386D800ABD2E9 /* Custom_WindowTests.m */; };
+		93055D471BB386D800ABD2E9 /* Custom_WindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D461BB386D800ABD2E9 /* Custom_WindowUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93055D381BB386D800ABD2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93055D1C1BB386D800ABD2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93055D231BB386D800ABD2E9;
+			remoteInfo = "Custom Window";
+		};
+		93055D431BB386D800ABD2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93055D1C1BB386D800ABD2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93055D231BB386D800ABD2E9;
+			remoteInfo = "Custom Window";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93055D241BB386D800ABD2E9 /* Custom Window.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Window.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93055D271BB386D800ABD2E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93055D281BB386D800ABD2E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93055D2B1BB386D800ABD2E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93055D2D1BB386D800ABD2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93055D301BB386D800ABD2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93055D321BB386D800ABD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93055D371BB386D800ABD2E9 /* Custom WindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom WindowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93055D3B1BB386D800ABD2E9 /* Custom_WindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_WindowTests.m; sourceTree = "<group>"; };
+		93055D3D1BB386D800ABD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93055D421BB386D800ABD2E9 /* Custom WindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom WindowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93055D461BB386D800ABD2E9 /* Custom_WindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_WindowUITests.m; sourceTree = "<group>"; };
+		93055D481BB386D800ABD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93055D211BB386D800ABD2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D341BB386D800ABD2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D3F1BB386D800ABD2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93055D1B1BB386D800ABD2E9 = {
+			isa = PBXGroup;
+			children = (
+				93055D261BB386D800ABD2E9 /* Custom Window */,
+				93055D3A1BB386D800ABD2E9 /* Custom WindowTests */,
+				93055D451BB386D800ABD2E9 /* Custom WindowUITests */,
+				93055D251BB386D800ABD2E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93055D251BB386D800ABD2E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93055D241BB386D800ABD2E9 /* Custom Window.app */,
+				93055D371BB386D800ABD2E9 /* Custom WindowTests.xctest */,
+				93055D421BB386D800ABD2E9 /* Custom WindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93055D261BB386D800ABD2E9 /* Custom Window */ = {
+			isa = PBXGroup;
+			children = (
+				93055D271BB386D800ABD2E9 /* AppDelegate.h */,
+				93055D281BB386D800ABD2E9 /* AppDelegate.m */,
+				93055D2D1BB386D800ABD2E9 /* Assets.xcassets */,
+				93055D2F1BB386D800ABD2E9 /* MainMenu.xib */,
+				93055D321BB386D800ABD2E9 /* Info.plist */,
+				93055D2A1BB386D800ABD2E9 /* Supporting Files */,
+			);
+			path = "Custom Window";
+			sourceTree = "<group>";
+		};
+		93055D2A1BB386D800ABD2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93055D2B1BB386D800ABD2E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93055D3A1BB386D800ABD2E9 /* Custom WindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				93055D3B1BB386D800ABD2E9 /* Custom_WindowTests.m */,
+				93055D3D1BB386D800ABD2E9 /* Info.plist */,
+			);
+			path = "Custom WindowTests";
+			sourceTree = "<group>";
+		};
+		93055D451BB386D800ABD2E9 /* Custom WindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93055D461BB386D800ABD2E9 /* Custom_WindowUITests.m */,
+				93055D481BB386D800ABD2E9 /* Info.plist */,
+			);
+			path = "Custom WindowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93055D231BB386D800ABD2E9 /* Custom Window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93055D4B1BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom Window" */;
+			buildPhases = (
+				93055D201BB386D800ABD2E9 /* Sources */,
+				93055D211BB386D800ABD2E9 /* Frameworks */,
+				93055D221BB386D800ABD2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Window";
+			productName = "Custom Window";
+			productReference = 93055D241BB386D800ABD2E9 /* Custom Window.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93055D361BB386D800ABD2E9 /* Custom WindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93055D4E1BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowTests" */;
+			buildPhases = (
+				93055D331BB386D800ABD2E9 /* Sources */,
+				93055D341BB386D800ABD2E9 /* Frameworks */,
+				93055D351BB386D800ABD2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93055D391BB386D800ABD2E9 /* PBXTargetDependency */,
+			);
+			name = "Custom WindowTests";
+			productName = "Custom WindowTests";
+			productReference = 93055D371BB386D800ABD2E9 /* Custom WindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93055D411BB386D800ABD2E9 /* Custom WindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93055D511BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowUITests" */;
+			buildPhases = (
+				93055D3E1BB386D800ABD2E9 /* Sources */,
+				93055D3F1BB386D800ABD2E9 /* Frameworks */,
+				93055D401BB386D800ABD2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93055D441BB386D800ABD2E9 /* PBXTargetDependency */,
+			);
+			name = "Custom WindowUITests";
+			productName = "Custom WindowUITests";
+			productReference = 93055D421BB386D800ABD2E9 /* Custom WindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93055D1C1BB386D800ABD2E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = shouding;
+				TargetAttributes = {
+					93055D231BB386D800ABD2E9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					93055D361BB386D800ABD2E9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 93055D231BB386D800ABD2E9;
+					};
+					93055D411BB386D800ABD2E9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 93055D231BB386D800ABD2E9;
+					};
+				};
+			};
+			buildConfigurationList = 93055D1F1BB386D800ABD2E9 /* Build configuration list for PBXProject "Custom Window" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93055D1B1BB386D800ABD2E9;
+			productRefGroup = 93055D251BB386D800ABD2E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93055D231BB386D800ABD2E9 /* Custom Window */,
+				93055D361BB386D800ABD2E9 /* Custom WindowTests */,
+				93055D411BB386D800ABD2E9 /* Custom WindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93055D221BB386D800ABD2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93055D2E1BB386D800ABD2E9 /* Assets.xcassets in Resources */,
+				93055D311BB386D800ABD2E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D351BB386D800ABD2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D401BB386D800ABD2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93055D201BB386D800ABD2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93055D2C1BB386D800ABD2E9 /* main.m in Sources */,
+				93055D291BB386D800ABD2E9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D331BB386D800ABD2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93055D3C1BB386D800ABD2E9 /* Custom_WindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93055D3E1BB386D800ABD2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93055D471BB386D800ABD2E9 /* Custom_WindowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93055D391BB386D800ABD2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93055D231BB386D800ABD2E9 /* Custom Window */;
+			targetProxy = 93055D381BB386D800ABD2E9 /* PBXContainerItemProxy */;
+		};
+		93055D441BB386D800ABD2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93055D231BB386D800ABD2E9 /* Custom Window */;
+			targetProxy = 93055D431BB386D800ABD2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93055D2F1BB386D800ABD2E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93055D301BB386D800ABD2E9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93055D491BB386D800ABD2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93055D4A1BB386D800ABD2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93055D4C1BB386D800ABD2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom Window/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-Window";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93055D4D1BB386D800ABD2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom Window/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-Window";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93055D4F1BB386D800ABD2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom WindowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-WindowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Window.app/Contents/MacOS/Custom Window";
+			};
+			name = Debug;
+		};
+		93055D501BB386D800ABD2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom WindowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-WindowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Window.app/Contents/MacOS/Custom Window";
+			};
+			name = Release;
+		};
+		93055D521BB386D800ABD2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom WindowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-WindowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Custom Window";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		93055D531BB386D800ABD2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom WindowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.first-learning.Custom-WindowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Custom Window";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93055D1F1BB386D800ABD2E9 /* Build configuration list for PBXProject "Custom Window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93055D491BB386D800ABD2E9 /* Debug */,
+				93055D4A1BB386D800ABD2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93055D4B1BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom Window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93055D4C1BB386D800ABD2E9 /* Debug */,
+				93055D4D1BB386D800ABD2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93055D4E1BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93055D4F1BB386D800ABD2E9 /* Debug */,
+				93055D501BB386D800ABD2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93055D511BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93055D521BB386D800ABD2E9 /* Debug */,
+				93055D531BB386D800ABD2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93055D1C1BB386D800ABD2E9 /* Project object */;
+}
