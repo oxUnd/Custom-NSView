@@ -13,7 +13,7 @@
 		93055D311BB386D800ABD2E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93055D2F1BB386D800ABD2E9 /* MainMenu.xib */; };
 		93055D3C1BB386D800ABD2E9 /* Custom_WindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D3B1BB386D800ABD2E9 /* Custom_WindowTests.m */; };
 		93055D471BB386D800ABD2E9 /* Custom_WindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D461BB386D800ABD2E9 /* Custom_WindowUITests.m */; };
-		93055D5C1BB3876C00ABD2E9 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93055D5B1BB3876C00ABD2E9 /* CCView.m */; settings = {ASSET_TAGS = (); }; };
+		93111F571BB3E63E00414CA5 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93111F561BB3E63E00414CA5 /* CCView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +47,8 @@
 		93055D421BB386D800ABD2E9 /* Custom WindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom WindowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93055D461BB386D800ABD2E9 /* Custom_WindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_WindowUITests.m; sourceTree = "<group>"; };
 		93055D481BB386D800ABD2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93055D5A1BB3876C00ABD2E9 /* CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCView.h; path = ../CCView.h; sourceTree = "<group>"; };
-		93055D5B1BB3876C00ABD2E9 /* CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCView.m; path = ../CCView.m; sourceTree = "<group>"; };
+		93111F551BB3E63E00414CA5 /* CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		93111F561BB3E63E00414CA5 /* CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		93055D261BB386D800ABD2E9 /* Custom Window */ = {
 			isa = PBXGroup;
 			children = (
-				93055D5A1BB3876C00ABD2E9 /* CCView.h */,
-				93055D5B1BB3876C00ABD2E9 /* CCView.m */,
+				93111F551BB3E63E00414CA5 /* CCView.h */,
+				93111F561BB3E63E00414CA5 /* CCView.m */,
 				93055D271BB386D800ABD2E9 /* AppDelegate.h */,
 				93055D281BB386D800ABD2E9 /* AppDelegate.m */,
 				93055D2D1BB386D800ABD2E9 /* Assets.xcassets */,
@@ -268,7 +268,7 @@
 			files = (
 				93055D2C1BB386D800ABD2E9 /* main.m in Sources */,
 				93055D291BB386D800ABD2E9 /* AppDelegate.m in Sources */,
-				93055D5C1BB3876C00ABD2E9 /* CCView.m in Sources */,
+				93111F571BB3E63E00414CA5 /* CCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +489,7 @@
 				93055D4D1BB386D800ABD2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93055D4E1BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				93055D501BB386D800ABD2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93055D511BB386D800ABD2E9 /* Build configuration list for PBXNativeTarget "Custom WindowUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +507,7 @@
 				93055D531BB386D800ABD2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
